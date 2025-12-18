@@ -31,11 +31,12 @@ Grammar_Scoring_Project/
 ├── grammar_project.ipynb     
 ├── requirements.txt          
 ├── submission.csv             
-└── README.md                 
+└── README.md        
+
 # Methodology (How It Works)
 The project implements a 3-Stage Pipeline to process audio and predict scores:
 
-**Automatic Speech Recognition (ASR):**
+## **Automatic Speech Recognition (ASR):**
 
 **Tool:** OpenAI Whisper (Base Model)
 
@@ -54,7 +55,7 @@ Total Grammar Mistakes
  
 This normalizes the score so that longer audios aren't penalized unfairly.
 
-**Predictive Modeling:**
+## **Predictive Modeling:**
 
 **Model:** Linear Regression (scikit-learn)
 
@@ -75,7 +76,7 @@ FFmpeg (Required for processing audio files)
 Step 1: Install Dependencies
 Open your terminal in the project folder and run:
 
-## Bash
+## **Bash**
 
 pip install -r requirements.txt
 (Content of requirements.txt: openai-whisper, language-tool-python, pandas, scikit-learn, numpy, soundfile, librosa, ipykernel)

@@ -93,10 +93,13 @@ pip install -r requirements.txt
 
 Code snippet
 
-filename,label
+filename, label
+
 audio_141,2.88
+
 audio_114,3.12
 ...
+
 # Future Improvements
 Complexity Features: Add checks for vocabulary richness (Lexical Diversity) to better distinguish Score 5 (Advanced) from Score 3 (Intermediate).
 

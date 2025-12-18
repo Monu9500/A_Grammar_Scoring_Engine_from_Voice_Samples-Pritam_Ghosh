@@ -13,18 +13,18 @@ Plaintext
 
 Grammar_Scoring_Project/
 │
-├── dataset/                   # The dataset folder
+├── dataset/                   
 │   ├── audios/
-│   │   ├── train/             # Training audio files (.wav)
-│   │   └── test/              # Test audio files (.wav)
+│   │   ├── train/            
+│   │   └── test/             
 │   └── csvs/
-│       ├── train.csv          # Training labels (filename, score)
-│       └── test.csv           # Test inputs (filename only)
+│       ├── train.csv          
+│       └── test.csv          
 │
-├── grammar_project.ipynb      # Main Jupyter Notebook (The Source Code)
-├── requirements.txt           # List of required Python libraries
-├── submission.csv             # Final output file (Generated after running)
-└── README.md                  # Project Documentation
+├── grammar_project.ipynb     
+├── requirements.txt          
+├── submission.csv             
+└── README.md                 
 # Methodology (How It Works)
 The project implements a 3-Stage Pipeline to process audio and predict scores:
 
@@ -104,5 +104,7 @@ Audio Features: Analyze pauses and hesitation (fluency) in addition to grammar.
 
 # Author
 Pritam Ghosh
+
 Role: Final Year B.Tech Student
+
 Institution: University of Engineering and Management

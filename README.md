@@ -61,7 +61,7 @@ This normalizes the score so that longer audios aren't penalized unfairly.
 
 **Logic:** The model learns the inverse relationship between Error Density and the Grammar Score (i.e., More errors = Lower score).
 
-# Installation & Setup
+## **Installation & Setup**
 Prerequisites
 Python 3.8+
 
@@ -73,7 +73,7 @@ FFmpeg (Required for processing audio files)
 
 **Mac:** brew install ffmpeg
 
-Step 1: Install Dependencies
+**Step:** Install Dependencies
 Open your terminal in the project folder and run:
 
 ## **Bash**
@@ -81,7 +81,7 @@ Open your terminal in the project folder and run:
 pip install -r requirements.txt
 (Content of requirements.txt: openai-whisper, language-tool-python, pandas, scikit-learn, numpy, soundfile, librosa, ipykernel)
 
-## How to Run the Project
+# How to Run the Project
 **Prepare Data:** Ensure your dataset/ folder contains the train and test audio folders.
 
 **Open Notebook:** Open grammar_project.ipynb in VS Code or Jupyter Lab.

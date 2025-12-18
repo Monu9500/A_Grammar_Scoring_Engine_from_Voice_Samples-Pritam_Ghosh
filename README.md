@@ -6,6 +6,13 @@ This project was developed to automate the assessment of spoken language grammar
 
 This solution serves as a robust baseline for automated language testing, using state-of-the-art ASR (Automatic Speech Recognition) and NLP techniques.
 
+# Needed Libraries
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![OpenAI Whisper](https://img.shields.io/badge/AI-OpenAI%20Whisper-green?style=for-the-badge&logo=openai&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-orange?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Data-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
 # Project Structure
 The project is organized as follows:
 
